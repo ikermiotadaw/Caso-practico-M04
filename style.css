@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(241, 249, 190);
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px;}
+
+body {
+    background-color: rgb(124, 180, 235);
+    color: rgb(2, 2, 2);}
+nav ul {
+    list-style-type: none; 
+     display: flex;
+    color: rgb(2, 2, 2)}
+h2 {
+    font-size: 30px;
+    text-align: center;}
+p {
+    font-size: 20px;
+   margin: 25px;}
+img {
+     position: right;
+      top: 20px;
+      left: 350px;
+} 
+aside {
+    background-color: rgb(241, 249, 190);
+    padding: 15px;
+    margin: 20px 0;}
+footer {
+    background-color: rgb(241, 249, 190);
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;}
