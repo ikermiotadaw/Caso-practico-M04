@@ -4,29 +4,75 @@ header {
     text-align: center;
     padding: 10px;}
 
+
 body {
     background-color: rgb(124, 180, 235);
     padding: 40px;
     color: rgb(2, 2, 2);}
-nav ul {
-    list-style-type: none; 
-     display: flex;
-    color: rgb(2, 2, 2)}
-h2 {
+
+.navbar li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 137, 87);
+  padding: 15px 40px;}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 137, 87);
+  padding: 15px 40px;}
+
+#titulo {
+    color: rgb(70, 137, 87);
+    background-color: rgb(241, 249, 190);
     font-size: 30px;
     text-align: center;}
+.imagen-flotante-1{
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 300px;
+    height: auto;
+    border: 3px solid rgb(70, 137, 87);}
+.imagen-flotante-2{
+    float: right;
+    margin: 0 10px 10px 0;
+    width: 300px;
+    height: auto;
+    border: 3px solid rgb(70, 137, 87);}
+
+.parrafo {
+    font-size: 20px;
+    margin: 25px;}
+
 p {
     font-size: 20px;
-   margin: 25px;}
+    margin: 25px;}
+
+.tabla {
+    justify-content: center;
+    border: 3px solid rgb(70, 137, 87);
+    background-color: rgb(241, 249, 190);
+    color: rgb(0,0,0);
+    border-collapse: collapse;}
+
+td, th {
+    border: 2px solid rgb(70, 137, 87);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;}
+
 img {
      position: right;
-      top: 20px;
-      left: 350px;
-} 
+     top: 20px;
+     left: 350px;} 
+
 aside {
     background-color: rgb(241, 249, 190);
     padding: 15px;
     margin: 20px 0;}
+
 footer {
     background-color: rgb(241, 249, 190);
     color: rgb(2, 2, 2);
