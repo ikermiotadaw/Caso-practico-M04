@@ -1,9 +1,8 @@
 header {
     background-color: rgb(241, 249, 190);
-    color: rgb(2, 2, 2);
+    color: rgb(70, 137, 87);
     text-align: center;
     padding: 10px;}
-
 
 body {
     background-color: rgb(124, 180, 235);
@@ -12,7 +11,9 @@ body {
 
 .navbar li{
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between;
+  font-size: 30px;
   align-items: center;
   background-color: rgb(70, 137, 87);
   padding: 15px 40px;}
@@ -27,7 +28,7 @@ body {
 #titulo {
     color: rgb(70, 137, 87);
     background-color: rgb(241, 249, 190);
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;}
 .imagen-flotante-1{
     float: right;
@@ -43,12 +44,12 @@ body {
     border: 3px solid rgb(70, 137, 87);}
 
 .parrafo {
-    font-size: 20px;
+    font-size: 30px;
     margin: 25px;}
 
 p {
-    font-size: 20px;
-    margin: 25px;}
+    font-size: 30px;
+    margin: 50px;}
 
 .tabla {
     justify-content: center;
@@ -67,11 +68,33 @@ img {
      position: right;
      top: 20px;
      left: 350px;} 
+#youtube {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;}
 
 aside {
     background-color: rgb(241, 249, 190);
     padding: 15px;
     margin: 20px 0;}
+
+.links li{
+    margin: right;}
+
+.links ul{
+    display:flex;
+    gap: 45px;
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0;}
+
+.links li:hover {
+  background-color: rgb(252, 252, 252);}
+
+.links figcaption:hover {
+  font-style: italic;
+  color: gray;}
 
 footer {
     background-color: rgb(241, 249, 190);
