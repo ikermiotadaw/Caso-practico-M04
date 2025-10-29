@@ -1,17 +1,29 @@
+
+
 header {
     background-color: rgb(241, 249, 190);
     color: rgb(70, 137, 87);
     text-align: center;
-    padding: 10px;}
+    padding: 10px;
+    margin: 20px 20px;}
 
 body {
     background-color: rgb(124, 180, 235);
     padding: 40px;
     color: rgb(2, 2, 2);}
 
+div p {
+    font-size: 30px;
+    margin: 25px;}
+
+#lista{
+    font-size: 30px;
+    margin: 25px;}
+
 .navbar li{
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
+  color: rgb(255,255,255);
   justify-content: space-between;
   font-size: 30px;
   align-items: center;
@@ -19,6 +31,7 @@ body {
   padding: 15px 40px;}
 
 .navbar ul{
+  margin: 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,10 +39,12 @@ body {
   padding: 15px 40px;}
 
 #titulo {
+    margin: 20px 20px;
     color: rgb(70, 137, 87);
     background-color: rgb(241, 249, 190);
     font-size: 50px;
     text-align: center;}
+
 .imagen-flotante-1{
     float: right;
     margin: 0 0 10px 10px;
@@ -73,11 +88,21 @@ img {
     height: 40px;
     margin-left: 10px;
     vertical-align: middle;}
+#youtub {
+    width: 40px;    
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;}
+#youtu {
+    width: 40px;    
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;}
 
 aside {
     background-color: rgb(241, 249, 190);
     padding: 15px;
-    margin: 20px 0;}
+    margin: 20px 20px;}
 
 .links li{
     margin: right;}
@@ -90,7 +115,7 @@ aside {
     padding: 0;}
 
 .links li:hover {
-  background-color: rgb(252, 252, 252);}
+  background-color: rgb(255, 255, 255);}
 
 .links figcaption:hover {
   font-style: italic;
@@ -101,6 +126,6 @@ footer {
     color: rgb(2, 2, 2);
     text-align: center;
     padding: 10px;
+    margin: 20px 20px;
     position: relative;
-    bottom: 0;
-    width: 100%;}
+    bottom: 0;}
