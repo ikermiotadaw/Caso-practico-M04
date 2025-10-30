@@ -1,24 +1,50 @@
+* {
+    box-sizing: border-box;
+}
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 
 header {
     background-color: rgb(241, 249, 190);
     color: rgb(70, 137, 87);
     text-align: center;
     padding: 10px;
-    margin: 20px 20px;}
+    margin: 20px 20px;
+}
 
 body {
     background-color: rgb(124, 180, 235);
     padding: 40px;
-    color: rgb(2, 2, 2);}
+    color: rgb(2, 2, 2);
+}
 
 div p {
     font-size: 30px;
-    margin: 25px;}
+    margin: 25px;
+}
 
 #lista{
     font-size: 30px;
-    margin: 25px;}
+    margin: 25px;
+}
 
 .navbar li{
   display: flex;
@@ -28,7 +54,8 @@ div p {
   font-size: 30px;
   align-items: center;
   background-color: rgb(70, 137, 87);
-  padding: 15px 40px;}
+  padding: 15px 40px;
+}
 
 .navbar ul{
   margin: 20px 20px;
@@ -36,90 +63,111 @@ div p {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(70, 137, 87);
-  padding: 15px 40px;}
+  padding: 15px 40px;
+}
 
 #titulo {
     margin: 20px 20px;
     color: rgb(70, 137, 87);
     background-color: rgb(241, 249, 190);
     font-size: 50px;
-    text-align: center;}
+    text-align: center;
+}
 
 .imagen-flotante-1{
     float: right;
     margin: 0 0 10px 10px;
     width: 300px;
     height: auto;
-    border: 3px solid rgb(70, 137, 87);}
+    border: 3px solid rgb(70, 137, 87);
+}
+
 .imagen-flotante-2{
     float: right;
     margin: 0 10px 10px 0;
     width: 300px;
     height: auto;
-    border: 3px solid rgb(70, 137, 87);}
+    border: 3px solid rgb(70, 137, 87);
+}
 
 .parrafo {
     font-size: 30px;
-    margin: 25px;}
+    margin: 25px;
+}
 
 p {
     font-size: 30px;
-    margin: 50px;}
+    margin: 50px;
+}
 
 .tabla {
     justify-content: center;
     border: 3px solid rgb(70, 137, 87);
     background-color: rgb(241, 249, 190);
     color: rgb(0,0,0);
-    border-collapse: collapse;}
+    border-collapse: collapse;
+}
 
 td, th {
     border: 2px solid rgb(70, 137, 87);
     border-collapse: collapse;
     padding: 10px;
-    text-align: center;}
+    text-align: center;
+}
 
 img {
      position: right;
      top: 20px;
-     left: 350px;} 
+     left: 350px;
+    } 
+
 #youtube {
     width: 40px;
     height: 40px;
     margin-left: 10px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
+
 #youtub {
     width: 40px;    
     height: 40px;
     margin-left: 10px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
+
 #youtu {
     width: 40px;    
     height: 40px;
     margin-left: 10px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 aside {
     background-color: rgb(241, 249, 190);
     padding: 15px;
-    margin: 20px 20px;}
+    margin: 20px 20px;
+}
 
 .links li{
-    margin: right;}
+    margin: right;
+}
 
 .links ul{
     display:flex;
     gap: 45px;
     list-style-type: none;
     font-size: 30px;
-    padding: 0;}
+    padding: 0;
+}
 
 .links li:hover {
-  background-color: rgb(255, 255, 255);}
+  background-color: rgb(255, 255, 255);
+}
 
 .links figcaption:hover {
   font-style: italic;
-  color: gray;}
+  color: gray;
+}
 
 footer {
     background-color: rgb(241, 249, 190);
@@ -128,4 +176,5 @@ footer {
     padding: 10px;
     margin: 20px 20px;
     position: relative;
-    bottom: 0;}
+    bottom: 0;
+}
