@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubriendo Tenerife</title>
+    <link rel="icon" type="image/png" href="logotenerife.png.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"></a>
+        <img src="logotenerife.png.png" alt="Logo de la web" width="150" height="150"/>
+        <h1>DESCUBRIENDO TENERIFE</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href= "Historia.html">Historia</a></li>
+            <li><a href= "Clima.html">Clima</a></li>
+            <li><a href= "Cultura.html">Cultura</a></li>
+            <li><a href= "formulario.html">Formulario</a></li>
+
+        </ul>
+    </nav>
+
+  <h1>Formulario de guía de turismo</h1>  
+<form class="formulario" action="procesador_de_formularios.php" method="post">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br>
+ 
+  <label for="primer_apellido">Primer apellido:</label><br>
+  <input type="text" id="primer_apellido" name="primer_apellido" placeholder="Primer apellido"><br>        
+ 
+  <label for="segundo_apellido">Segundo apellido:</label><br>
+  <input type="text" id="segundo_apellido" name="segundo_apellido" placeholder="Segundo apellido" required><br>  
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="email" required><br> 
+  
+  <label for="guia_turistica">Guía turística deseada:</label><br>
+  <select id="guia_turistica" name="guia_turistica_deseada">
+    <option value="3_dias">3 días</option>
+    <option value="5_dias">5 días</option>
+    <option value="7_dias">7 días</option>
+  </select><br>
+
+  <input type="submit" value="Enviar">
+  <p onclick="alert=Enviado">Al enviar el formulario, aceptas que tus datos sean utilizados para contactarte y proporcionarte la guía turística solicitada.</p>
+</form>
+</body>
+</html>

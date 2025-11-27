@@ -143,6 +143,11 @@ aside {
     color: gray;
 }
 
+.formulario {
+    background-color: rgb(241, 249, 190);
+    padding: 15px;
+    margin: 20px 20px;
+}
 
 footer {
     background-color: rgb(241, 249, 190);
