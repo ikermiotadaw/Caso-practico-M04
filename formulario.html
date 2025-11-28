@@ -23,8 +23,9 @@
         </ul>
     </nav>
 
-  <h1>Formulario de guía de turismo</h1>  
-<form class="formulario" action="procesador_de_formularios.php" method="post">
+  <h1>Formulario de guía de turismo</h1> 
+  <p>Mediante el siguiente formulario podrás solicitar que te enviemos una guía turística con diferentes actividades. Según el tiempo que vayas a estar en la isla podrás elegir entre diferentes guías.</p> 
+<form class="formulario" action="formulario.html" method="post" onsubmit="return mostrarMensaje()">
   <label for="nombre">Nombre:</label><br>
   <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br>
  
@@ -46,6 +47,12 @@
 
   <input type="submit" value="Enviar">
   <p onclick="alert=Enviado">Al enviar el formulario, aceptas que tus datos sean utilizados para contactarte y proporcionarte la guía turística solicitada.</p>
+  <script>
+function mostrarMensaje() {
+  alert("¡Formulario enviado correctamente!");return true; // Hace que se envie el formulario
+}
+  </script>
+
 </form>
 </body>
 </html>
